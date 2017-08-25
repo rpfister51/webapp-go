@@ -1,4 +1,4 @@
-FROM golang:1.6
+FROM golang:1.7
 RUN go get -u -v github.com/derekparker/delve/cmd/dlv
 EXPOSE 2345
 
